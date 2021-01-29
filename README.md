@@ -28,7 +28,7 @@ personService.putPerson("Tony")
   .then(console.log).catch(console.log);
 
 // update person last name
-personService.putPerson("Tony", "Montana")
+personService.updateLastName("Tony", "Montana")
   .then(console.log).catch(console.log);
 
 // get person
